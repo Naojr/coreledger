@@ -1,132 +1,190 @@
-██████╗ ██████╗ ██████╗ ███████╗
-██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██║     ██║   ██║██████╔╝█████╗
-██║     ██║   ██║██╔══██╗██╔══╝
-╚██████╗╚██████╔╝██║  ██║███████╗
- ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+#
 
-          CoreLedger
-
-<p align="center">
-
-<img src="docs/banner.png" width="900">
-
-</p>
+```text
+ ██████╗ ██████╗ ██████╗ ███████╗██╗     ███████╗██████╗  ██████╗ ███████╗██████╗
+██╔════╝██╔═══██╗██╔══██╗██╔════╝██║     ██╔════╝██╔══██╗██╔════╝ ██╔════╝██╔══██╗
+██║     ██║   ██║██████╔╝█████╗  ██║     █████╗  ██║  ██║██║  ███╗█████╗  ██████╔╝
+██║     ██║   ██║██╔══██╗██╔══╝  ██║     ██╔══╝  ██║  ██║██║   ██║██╔══╝  ██╔══██╗
+╚██████╗╚██████╔╝██║  ██║███████╗███████╗███████╗██████╔╝╚██████╔╝███████╗██║  ██║
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝
+```
 
 <p align="center">
 
-<b>A lightweight productivity dashboard built to organize work, track performance and continuously improve daily workflow.</b>
+**Personal Productivity Dashboard**
 
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Status-Active%20Development-success">
-<img src="https://img.shields.io/badge/PWA-Ready-blue">
-<img src="https://img.shields.io/badge/HTML-97%25-orange">
-<img src="https://img.shields.io/badge/JavaScript-Vanilla-yellow">
-<img src="https://img.shields.io/badge/License-MIT-lightgrey">
+*A lightweight productivity dashboard built to organize work, track performance and continuously improve daily workflow.*
 
 </p>
 
 ---
 
-## Overview
+<p align="center">
 
-CoreLedger is a personal productivity dashboard designed to simplify task organization while providing meaningful insights into daily performance.
+![Status](https://img.shields.io/badge/Status-Active_Development-4CAF50?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge)
+![PWA](https://img.shields.io/badge/PWA-Ready-007ACC?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-97%25-E34F26?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-555555?style=for-the-badge)
 
-Originally built as a utility for my own workflow, the application has gradually evolved into a centralized workspace that combines task management, productivity analytics, work session tracking, and performance statistics.
-
-Rather than acting as a simple to-do list, CoreLedger helps measure consistency, visualize progress, and understand how work evolves over time.
-
----
-
-## Preview
-
-<img src="docs/dashboard.png">
+</p>
 
 ---
 
-## Features
+# Overview
 
-### Productivity
+CoreLedger is a lightweight productivity dashboard built to centralize everyday workflow into a single application.
 
-- Daily task management
-- Priority system
-- Daily observations
-- Historical records
+The project started as a personal utility developed to improve my own daily work organization. Over time, it evolved into a complete operational dashboard capable of combining task management, productivity metrics, historical statistics and workflow analysis.
 
-### Analytics
+Rather than functioning as another traditional to-do list, CoreLedger aims to provide meaningful insights into how work is performed, allowing users to visualize progress, evaluate consistency and continuously improve their daily routines.
 
-- Performance dashboard
-- Weekly audit
-- Historical statistics
-- Productivity metrics
-- Streak tracking
-
-### Workflow
-
-- Focus timer
-- Work session tracking
-- Daily progress
-- Completion rate
-
-### Customization
-
-- Multiple UI themes
-- Dark / Light mode
-- Responsive layout
-- Progressive Web App (PWA)
+Every feature included in this repository was created to solve a real problem encountered during day-to-day work.
 
 ---
 
-## Roadmap
+# Philosophy
 
-### Current
+CoreLedger follows a few simple principles.
 
-- [x] Task management
-- [x] Dashboard
-- [x] Statistics
-- [x] Weekly Audit
-- [x] Focus Timer
-- [x] Theme System
-- [x] PWA Support
+* Organize before acting.
+* Measure before optimizing.
+* Simplicity over complexity.
+* Everything should be immediately accessible.
+* Offline First.
+* Zero unnecessary dependencies.
+* Fast, lightweight and maintainable.
 
-### Next
+The objective is not to become another generic productivity application.
 
-- [ ] Calendar integration
-- [ ] CSV / Excel export
-- [ ] Better reporting
-- [ ] Search engine
-- [ ] Keyboard shortcuts
-- [ ] Widgets
-- [ ] Cloud synchronization
+The objective is to become an operational workspace.
 
 ---
 
-## Technology Stack
+# Current Features
 
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Structure |
-| CSS3 | Interface |
-| Vanilla JavaScript | Application Logic |
-| LocalStorage | Local Persistence |
-| PWA | Offline Support |
+## Productivity
+
+* Daily task management
+* Priority system
+* Daily observations
+* Historical task persistence
+* Weekly planning
+
+## Performance
+
+* Productivity dashboard
+* Weekly audit
+* Daily efficiency metrics
+* Historical statistics
+* Completion percentage
+* Productivity streaks
+
+## Workflow
+
+* Focus Timer
+* Work session tracking
+* Daily progress monitoring
+* Session statistics
+
+## Interface
+
+* Multiple visual themes
+* Dark Mode
+* Light Mode
+* Responsive Design
+* Progressive Web App (PWA)
 
 ---
 
-## Philosophy
+# Screenshots
 
-CoreLedger is not intended to become another generic productivity application.
+## Dashboard
 
-Its objective is to provide a lightweight operational dashboard where task management, performance metrics and workplace utilities coexist in a single environment.
+> *(coming soon)*
 
-This repository also represents my continuous learning journey as a developer. New features, architectural improvements and UI refinements will continue to be added over time.
+![Dashboard](docs/dashboard.png)
 
 ---
 
-## Installation
+## Task Management
+
+> *(coming soon)*
+
+![Tasks](docs/tasks.png)
+
+---
+
+## Statistics
+
+> *(coming soon)*
+
+![Statistics](docs/statistics.png)
+
+---
+
+# Technology Stack
+
+| Technology          | Purpose           |
+| ------------------- | ----------------- |
+| HTML5               | Structure         |
+| CSS3                | User Interface    |
+| Vanilla JavaScript  | Business Logic    |
+| LocalStorage        | Local Persistence |
+| Progressive Web App | Offline Support   |
+
+---
+
+# Roadmap
+
+## Completed
+
+* [x] Daily Tasks
+* [x] Historical Storage
+* [x] Weekly Dashboard
+* [x] Productivity Metrics
+* [x] Weekly Audit
+* [x] Focus Timer
+* [x] Theme System
+* [x] PWA Support
+
+---
+
+## In Progress
+
+* [ ] Calendar View
+* [ ] Export Reports
+* [ ] Search Engine
+* [ ] Advanced Statistics
+* [ ] Keyboard Shortcuts
+* [ ] Better Mobile Experience
+
+---
+
+## Future
+
+* [ ] Cloud Synchronization
+* [ ] Multi-device Support
+* [ ] Team Workspaces
+* [ ] Plugin System
+* [ ] API Integration
+
+---
+
+# Why CoreLedger?
+
+Most productivity tools are designed for everyone.
+
+CoreLedger was designed for real operational work.
+
+Every screen, every metric and every interaction exists because it solved an actual problem during daily workflows.
+
+This repository also represents my continuous learning journey as a software developer, where every new version introduces cleaner architecture, better user experience and improved maintainability.
+
+---
+
+# Installation
 
 Clone the repository
 
@@ -136,38 +194,86 @@ git clone https://github.com/Naojr/coreledger.git
 
 Open
 
-```
+```text
 index.html
 ```
 
-or deploy it with GitHub Pages.
+or deploy it using GitHub Pages.
 
 ---
 
-## Screenshots
+# Project Structure
 
-### Dashboard
-
-<img src="docs/dashboard.png">
+```text
+CoreLedger/
+│
+├── index.html
+├── manifest.json
+├── sw.js
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+│
+├── docs/
+│   ├── banner.png
+│   ├── dashboard.png
+│   ├── tasks.png
+│   └── statistics.png
+│
+├── assets/
+├── css/
+└── js/
+```
 
 ---
 
-### Tasks
+# Development
 
-<img src="docs/tasks.png">
+Current architecture:
 
----
+* ✔ Vanilla JavaScript
+* ✔ HTML5
+* ✔ CSS3
+* ✔ Local Storage
+* ✔ Responsive Layout
+* ✔ Progressive Web App
 
-### Statistics
-
-<img src="docs/stats.png">
-
----
-
-## Author
-
-Developed by **Joan Retamozo**
+Future versions may modularize the codebase while maintaining the same lightweight philosophy.
 
 ---
 
-> **Organize your work. Measure your progress. Improve every day.**
+# Author
+
+Developed by
+
+**Joan Retamozo**
+
+Argentina 🇦🇷
+
+---
+
+# License
+
+MIT License
+
+Feel free to fork, learn, improve and build upon this project.
+
+---
+
+<p align="center">
+
+### **Organize your work.**
+
+### **Measure your progress.**
+
+### **Improve every day.**
+
+</p>
+
+---
+
+<p align="center">
+
+Made with ☕, curiosity and many hours of debugging.
+
+</p>
