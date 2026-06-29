@@ -1,0 +1,16 @@
+{
+  "name": "CoreLedger Task Tracker",
+  "short_name": "CoreLedger",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#16120D",
+  "theme_color": "#0D1F23",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
